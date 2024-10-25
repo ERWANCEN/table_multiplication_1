@@ -30,3 +30,13 @@ for ($a = 1; $a <= 10; $a++) { // pour la variable a = 1; répéter jusqu'à ce 
 
     echo '<hr>'; // création de trait qui sépare chaque table
 }
+
+echo '<h1>CORRECTION</h1>';
+
+for($i = 1; $i <= 10; $i++) {
+    echo "Table de multiplication de $i<br>";
+    for($j = 0; $j <= 10; $j++) {
+        echo "$i x $j = " . $i * $j . "<br>";
+    }
+    echo '<hr>';
+}
